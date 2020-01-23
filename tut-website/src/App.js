@@ -13,7 +13,7 @@ class App extends Component{
 				<div id="colorlib-wrap">
 					<navBar></navBar>
 						<div id="colorlib-main">
-							<introduction></introduction>
+							<intro></intro>
 							<about></about>
 							<skills></skills>
 							<projects></projects>
