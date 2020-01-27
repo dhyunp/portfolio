@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import navBar from './components/navBar'
-import introduction from './components/introduction'
-import about from './components/about'
-import skills from './components/skills'
-import projects from './components/projects'
+import NavBar from './components/navBar'
+import Introduction from './components/introduction'
+import About from './components/about'
+import Skills from './components/skills'
+import Projects from './components/projects'
 
 class App extends Component{
 	render(){
@@ -20,7 +20,7 @@ class App extends Component{
 						</div>
 				</div>
 			</div>
-		);	
+		);
 	}
 }
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class skills extends Component{
+export default class Skills extends Component{
 	render() {
 		return (
 			<div>
@@ -46,7 +46,7 @@ export default class skills extends Component{
 							</div>
 						  </div>
 						</div>
-						
+
 						{/*
 						<div className="col-md-4 text-center animate-box">
 						  <div className="services color-4">
@@ -59,7 +59,7 @@ export default class skills extends Component{
 							</div>
 						  </div>
 						</div>
-						
+
 						<div className="col-md-4 text-center animate-box">
 						  <div className="services color-5">
 							<span className="icon">
@@ -71,7 +71,7 @@ export default class skills extends Component{
 							</div>
 						  </div>
 						</div>
-						
+
 						<div className="col-md-4 text-center animate-box">
 						  <div className="services color-6">
 							<span className="icon">
@@ -84,12 +84,11 @@ export default class skills extends Component{
 						  </div>
 						</div>
 						*/}
-						
+
 					  </div>
 					</div>
 				</section>
 			</div>
-		);
+		)
 	}
 }
-	
