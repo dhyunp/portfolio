@@ -11,12 +11,12 @@ class App extends Component{
 		return (
 			<div id="colorlib-page">
 				<div id="colorlib-wrap">
-					<navBar></navBar>
+					<NavBar></NavBar>
 						<div id="colorlib-main">
-							<intro></intro>
-							<about></about>
-							<skills></skills>
-							<projects></projects>
+							<Introduction></Introduction>
+							<About></About>
+							<Skills></Skills>
+							<Projects></Projects>
 						</div>
 				</div>
 			</div>
