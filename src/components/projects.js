@@ -4,12 +4,12 @@ export default class Projects extends Component{
 	render() {
 		return (
 			<div>
-				<section className="colorlib-experience" data-section="experience">
+				<section className="colorlib-projects" data-section="projects">
 					<div className="colorlib-narrow-content">
 					  <div className="row">
 						<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-						  <span className="heading-meta">Experience</span>
-						  <h2 className="colorlib-heading animate-box">Work Experience</h2>
+						  <span className="heading-meta">projects</span>
+						  <h2 className="colorlib-heading animate-box">Project Experiences</h2>
 						</div>
 					  </div>
 					  <div className="row">

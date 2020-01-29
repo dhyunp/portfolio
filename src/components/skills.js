@@ -4,7 +4,7 @@ export default class Skills extends Component{
 	render() {
 		return (
 			<div>
-				<section className="colorlib-services" data-section="services">
+				<section className="colorlib-skills" data-section="skills">
 					<div className="colorlib-narrow-content">
 					  <div className="row">
 						<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -14,7 +14,7 @@ export default class Skills extends Component{
 					  </div>
 					  <div className="row row-pt-md">
 						<div className="col-md-4 text-center animate-box">
-						  <div className="services color-1">
+						  <div className="skills color-1">
 							<span className="icon">
 							  <i className="icon-bulb" />
 							</span>
@@ -25,7 +25,7 @@ export default class Skills extends Component{
 						  </div>
 						</div>
 						<div className="col-md-4 text-center animate-box">
-						  <div className="services color-2">
+						  <div className="skills color-2">
 							<span className="icon">
 							  <i className="icon-data" />
 							</span>
@@ -36,7 +36,7 @@ export default class Skills extends Component{
 						  </div>
 						</div>
 						<div className="col-md-4 text-center animate-box">
-						  <div className="services color-3">
+						  <div className="skills color-3">
 							<span className="icon">
 							  <i className="icon-phone3" />
 							</span>
@@ -49,7 +49,7 @@ export default class Skills extends Component{
 
 						{/*
 						<div className="col-md-4 text-center animate-box">
-						  <div className="services color-4">
+						  <div className="skills color-4">
 							<span className="icon">
 							  <i className="icon-layers2" />
 							</span>
@@ -61,7 +61,7 @@ export default class Skills extends Component{
 						</div>
 
 						<div className="col-md-4 text-center animate-box">
-						  <div className="services color-5">
+						  <div className="skills color-5">
 							<span className="icon">
 							  <i className="icon-data" />
 							</span>
@@ -73,7 +73,7 @@ export default class Skills extends Component{
 						</div>
 
 						<div className="col-md-4 text-center animate-box">
-						  <div className="services color-6">
+						  <div className="skills color-6">
 							<span className="icon">
 							  <i className="icon-phone3" />
 							</span>

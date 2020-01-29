@@ -13,19 +13,19 @@ export default class NavBar extends Component{
 					<nav id="colorlib-main-menu" role="navigation" className="navbar">
 					  <div id="navbar" className="collapse">
 						<ul>
-						  <li className="active"><a href="#" data-nav-section="home">Home</a></li>
-						  <li><a href="#" data-nav-section="about">About</a></li>
-						  <li><a href="#" data-nav-section="skills">Skills</a></li>
-						  <li><a href="#" data-nav-section="projects">Projects</a></li>
+						  <li className="active"><a href="home" data-nav-section="home">Home</a></li>
+						  <li><a href="about" data-nav-section="about">About</a></li>
+						  <li><a href="skills" data-nav-section="skills">Skills</a></li>
+						  <li><a href="projects" data-nav-section="projects">Projects</a></li>
 						</ul>
 					  </div>
 					</nav>
 					<nav id="colorlib-main-menu">
-					  <span><center>
-						<small>Check Out My Social Links Below!</small>
-					  </center></span>
 					  <ul>
-						<li><a href="#"><i className="icon-social-github" /></a> <a href="#"><i className="icon-linkedin22" /></a></li>
+						<li>
+							<a href="https://github.com/dhyunpark" target="_blank" rel="noopener noreferrer"><i className="icon-social-github" /></a> 
+							<a href="https://www.linkedin.com/in/dhyunpark/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin22" /></a>
+						</li>
 					  </ul>
 					</nav>
 				</aside>

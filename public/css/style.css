@@ -374,13 +374,12 @@ body.offcanvas {
   margin: 0;
   padding: 0; }
 
-.colorlib-experience,
-.colorlib-skills,
+.colorlib-projects,
 .colorlib-education,
 .colorlib-blog,
 .colorlib-work,
 .colorlib-about,
-.colorlib-services,
+.colorlib-skills,
 .colorlib-contact {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -388,13 +387,12 @@ body.offcanvas {
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
-    .colorlib-experience,
-    .colorlib-skills,
+    .colorlib-projects,
     .colorlib-education,
     .colorlib-blog,
     .colorlib-work,
     .colorlib-about,
-    .colorlib-services,
+    .colorlib-skills,
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
@@ -615,7 +613,7 @@ body.offcanvas {
   filter: alpha(opacity=40);
   font-size: 16px; }
 
-.services {
+.skills {
   margin-bottom: 30px;
   padding: 1.5em;
   -webkit-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
@@ -624,41 +622,41 @@ body.offcanvas {
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   border-bottom: 2px solid #2c98f0; }
-  .services .icon2 {
+  .skills .icon2 {
     display: block;
     margin-bottom: 20px; }
-    .services .icon2 i {
+    .skills .icon2 i {
       font-size: 30px;
       color: #2c98f0; }
-  .services h3 {
+  .skills h3 {
     font-family: "Quicksand", Arial, sans-serif;
     font-size: 16px;
     font-weight: 500; }
-  .services.color-2 {
+  .skills.color-2 {
     border-bottom: 2px solid #ec5453; }
-    .services.color-2 .icon2 i {
+    .skills.color-2 .icon2 i {
       color: #ec5453; }
-  .services.color-3 {
+  .skills.color-3 {
     border-bottom: 2px solid #f9bf3f; }
-    .services.color-3 .icon2 i {
+    .skills.color-3 .icon2 i {
       color: #f9bf3f; }
-  .services.color-4 {
+  .skills.color-4 {
     border-bottom: 2px solid #a84cb8; }
-    .services.color-4 .icon2 i {
+    .skills.color-4 .icon2 i {
       color: #a84cb8; }
-  .services.color-5 {
+  .skills.color-5 {
     border-bottom: 2px solid #2fa499; }
-  .services.color-6 {
+  .skills.color-6 {
     border-bottom: 2px solid #4054b2; }
 
-.services {
+.skills {
   margin-bottom: 80px;
   position: relative;
   z-index: 0; }
   @media screen and (max-width: 768px) {
-    .services {
+    .skills {
       margin-bottom: 4em; } }
-  .services .icon {
+  .skills .icon {
     position: absolute;
     top: -20px;
     left: 0;
@@ -668,66 +666,66 @@ body.offcanvas {
     display: table;
     margin: 0 auto;
     background: #2c98f0; }
-    .services .icon:before, .services .icon:after {
+    .skills .icon:before, .skills .icon:after {
       position: absolute;
       left: 0;
       right: 0;
       content: ''; }
-    .services .icon:before {
+    .skills .icon:before {
       top: -30px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 0 50px 30px 50px;
       border-color: transparent transparent #2c98f0 transparent; }
-    .services .icon:after {
+    .skills .icon:after {
       bottom: -30px;
       width: 0;
       height: 0;
       border-style: solid;
       border-width: 30px 50px 0 50px;
       border-color: #2c98f0 transparent transparent transparent; }
-    .services .icon i {
+    .skills .icon i {
       font-size: 30px;
       color: #fff;
       z-index: 1;
       display: table-cell;
       vertical-align: middle; }
-  .services .desc {
+  .skills .desc {
     margin-top: 60px; }
-    .services .desc h3 {
+    .skills .desc h3 {
       font-size: 16px;
       font-weight: 700;
       text-transform: uppercase; }
-  .services.color-2 .icon {
+  .skills.color-2 .icon {
     background: #ec5453; }
-    .services.color-2 .icon:before {
+    .skills.color-2 .icon:before {
       border-color: transparent transparent #ec5453 transparent; }
-    .services.color-2 .icon:after {
+    .skills.color-2 .icon:after {
       border-color: #ec5453 transparent transparent transparent; }
-  .services.color-3 .icon {
+  .skills.color-3 .icon {
     background: #f9bf3f; }
-    .services.color-3 .icon:before {
+    .skills.color-3 .icon:before {
       border-color: transparent transparent #f9bf3f transparent; }
-    .services.color-3 .icon:after {
+    .skills.color-3 .icon:after {
       border-color: #f9bf3f transparent transparent transparent; }
-  .services.color-4 .icon {
+  .skills.color-4 .icon {
     background: #a84cb8; }
-    .services.color-4 .icon:before {
+    .skills.color-4 .icon:before {
       border-color: transparent transparent #a84cb8 transparent; }
-    .services.color-4 .icon:after {
+    .skills.color-4 .icon:after {
       border-color: #a84cb8 transparent transparent transparent; }
-  .services.color-5 .icon {
+  .skills.color-5 .icon {
     background: #2fa499; }
-    .services.color-5 .icon:before {
+    .skills.color-5 .icon:before {
       border-color: transparent transparent #2fa499 transparent; }
-    .services.color-5 .icon:after {
+    .skills.color-5 .icon:after {
       border-color: #2fa499 transparent transparent transparent; }
-  .services.color-6 .icon {
+  .skills.color-6 .icon {
     background: #4054b2; }
-    .services.color-6 .icon:before {
+    .skills.color-6 .icon:before {
       border-color: transparent transparent #4054b2 transparent; }
-    .services.color-6 .icon:after {
+    .skills.color-6 .icon:after {
       border-color: #4054b2 transparent transparent transparent; }
 
 .progress-wrap h3 {
