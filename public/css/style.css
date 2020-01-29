@@ -7,7 +7,7 @@
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -36,7 +36,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Quicksand", Georgia, serif;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -78,9 +78,8 @@ figure {
   float: left;
   width: 300px;
   position: fixed;
-  overflow: scroll;
   z-index: 1001;
-  background: #f2f3f7;
+  background: #c9cbd1;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -108,7 +107,7 @@ figure {
   #colorlib-aside .number {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;}  
+    font-size: 12px;}
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
@@ -226,7 +225,7 @@ figure {
   float: right;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
-  transition: 0.5s; }
+  transition: 10s; }
   @media screen and (max-width: 768px) {
     #colorlib-main {
       width: 100%;
@@ -294,9 +293,11 @@ figure {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
-          padding: 0;
+          padding: 25px;
           color: black;
-          font-family: "Playfair Display", Georgia, serif; }
+          background: rgb(211, 211, 211, 0.75);
+          border-radius: 25px;
+          font-family: "Quicksand" , Arial, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -333,12 +334,15 @@ figure {
           padding: 10px 15px !important;
           border: none;
           font-weight: 400; }
-          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn {
+          #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn{
             color: #000;
             border: 1px solid #000;
-            background: transparent !important; }
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              background: transparent !important;
+            padding: 25px;
+            color: black;
+            background: rgb(211, 211, 211, 0.75);
+            border-radius: 25px; }
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover{
+              background: #828282 !important;
               border: 1px solid #000 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
@@ -1184,11 +1188,11 @@ body.offcanvas {
     box-shadow: none !important;
     outline: none !important; }
 
-.btn-primary {
+.btn-primary, .btn-primary:visited {
   background: #2c98f0;
   color: #fff;
   border: 2px solid #2c98f0; }
-  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, {
     background: #44a4f2 !important;
     border-color: #44a4f2 !important; }
   .btn-primary.btn-outline {

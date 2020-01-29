@@ -8,7 +8,7 @@ export default class Projects extends Component{
 					<div className="colorlib-narrow-content">
 					  <div className="row">
 						<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-						  <span className="heading-meta">projects</span>
+						  <span className="heading-meta">My Projects</span>
 						  <h2 className="colorlib-heading animate-box">Project Experiences</h2>
 						</div>
 					  </div>
@@ -21,30 +21,30 @@ export default class Projects extends Component{
 								  <i className="icon-pen2" />
 								</div>
 								<div className="timeline-label">
-								  <h2><a href="#">Full Stack Developer</a> <span>2017-2018</span></h2>
-								  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+								  <h2><a href="https://github.com/dhyunpark/reactTut-Website" target="_blank" rel="noopener noreferrer">Personal Portfolio Website</a> <span>2020</span></h2>
+								  <p>Created a custom, personalized portfolio website(this very one, in fact) for showcasing my projects from the ground up in a full stack using ReactJS and Github Pages.</p>
 								</div>
 							  </div>
 							</article>
 							<article className="timeline-entry animate-box" data-animate-effect="fadeInRight">
 							  <div className="timeline-entry-inner">
-								<div className="timeline-icon color-2">
+								<div className="timeline-icon color-5">
 								  <i className="icon-pen2" />
 								</div>
 								<div className="timeline-label">
-								  <h2><a href="#">Front End Developer at Google Company</a> <span>2017-2018</span></h2>
-								  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								  <h2><a href="https://github.com/jbentivegna15/TIED" target="_blank" rel="noopener noreferrer">TIED, A Public Event Planning Platform</a> <span>2018</span></h2>
+								  <p>Developed a fully functioning web service using a MERN stack in a collaborative team environment. The platform allowed users to plan public events, interact and invite other users. I focused largely on using using React and Node.js for the front-end, and got experience using Express and MongoDB for the back-end.</p>
 								</div>
 							  </div>
 							</article>
 							<article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 							  <div className="timeline-entry-inner">
-								<div className="timeline-icon color-3">
+								<div className="timeline-icon color-2">
 								  <i className="icon-pen2" />
 								</div>
 								<div className="timeline-label">
-								  <h2><a href="#">System Analyst</a> <span>2017-2018</span></h2>
-								  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								  <h2><a href="https://github.com/dhyunpark/nlp-ece467" target="_blank" rel="noopener noreferrer">Part-of-Speech Tagger using N-grams, NLP</a> <span>2018</span></h2>
+								  <p>Coded a program (Python) to train and test on a large body of text in order to determine each word’s part of speech in grammar. Incorporated Viterbi Algorithm and Hidden Markov Model to improve accuracy.</p>
 								</div>
 							  </div>
 							</article>
@@ -54,25 +54,19 @@ export default class Projects extends Component{
 								  <i className="icon-pen2" />
 								</div>
 								<div className="timeline-label">
-								  <h2><a href="#">Creative Designer</a> <span>2017-2018</span></h2>
-								  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								  <h2><a href="https://github.com/dhyunpark/ai-ece469/tree/master/Project%201%20Othello/src" target="_blank" rel="noopener noreferrer">Othello AI using A* Algorithm</a> <span>2017</span></h2>
+								  <p>Designed and created an ascii shell terminal-based game of Othello that allowed the player to play against an adversarial AI that integrated A* heuristics. Users could customize the difficulty of the AI by giving different constraints on the AI's search depth.</p>
 								</div>
 							  </div>
 							</article>
 							<article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
 							  <div className="timeline-entry-inner">
-								<div className="timeline-icon color-5">
+								<div className="timeline-icon color-3">
 								  <i className="icon-pen2" />
 								</div>
 								<div className="timeline-label">
-								  <h2><a href="#">UI/UX Designer at Envato</a> <span>2017-2018</span></h2>
-								  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-								</div>
-							  </div>
-							</article>
-							<article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-							  <div className="timeline-entry-inner">
-								<div className="timeline-icon color-none">
+								  <h2>CPU Architecture / Microprocessor Design<span>2017</span></h2>
+								  <p>Constructed an Arithmetic Logic Unit (ALU) using logic IC chips on breadboards. Expanded the ALU into a microprocessor based on the Intel 4040 using more IC chips.</p>
 								</div>
 							  </div>
 							</article>
