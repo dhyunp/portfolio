@@ -65,7 +65,7 @@ export default class Projects extends Component{
 								  <i className="icon-pen2" />
 								</div>
 								<div className="timeline-label">
-								  <h2>CPU Architecture / Microprocessor Design<span>2017</span></h2>
+								  <h2>CPU Architecture / Microprocessor Design <span>2017</span></h2>
 								  <p>Constructed an Arithmetic Logic Unit (ALU) using logic IC chips on breadboards. Expanded the ALU into a microprocessor based on the Intel 4040 using more IC chips.</p>
 								</div>
 							  </div>
